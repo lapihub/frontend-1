@@ -1,0 +1,24 @@
+.green {
+    width: 100px;
+    height: 100px;
+
+    background-color: forestgreen;
+
+}
+
+.red {
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    justify-content: center;
+    align-items: center;
+
+}

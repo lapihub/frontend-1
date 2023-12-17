@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+          body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: lightgray;
+        padding: 10px;
+        z-index: 1000;
+    }
+
+    #menu-btn {
+        cursor: pointer;
+        padding: 10px;
+        background: #007BFF;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+    }
+
+    #menu-btn:hover {
+        background: #0056b3;
+    }
+
+    .header .navbar.active {
+    display: block !important;/* or any other style to make it visible */
+}
+
+    </style>
+    <title>Test Page</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars">Menu</div>
+        </div>
+    </header>   
+
+    <script src="script.js"></script>
+
+</body>
+</html>
