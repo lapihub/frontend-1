@@ -120,6 +120,10 @@ section{
     color: var(--red)
 }
 
+.header .flex .navbar a.active {
+    color: var(--red);
+}
+
 .header .flex .icons div{
     height: 5rem;
     width: 5rem;
